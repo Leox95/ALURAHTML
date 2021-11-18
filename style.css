@@ -165,7 +165,18 @@ table{
 }
 
 .imgbeneficios {
-    width: 60%;
+    width: 50%;
+}
+.conteudo-beneficios{
+	display: flex;
+	justify-content:center;
+}
+.itens{
+	line-height: 1.5;
+	padding-right: 5px;
+}
+.itens:nth-child(1){
+	font-weight: bold;
 }
 /*importando e editando mapa*/
 .mapa{
